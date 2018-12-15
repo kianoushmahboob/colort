@@ -1,0 +1,230 @@
+/*
+Theme Name: colort
+Theme URI: #
+Author: Kianoush Mahboob
+Author URI: http://kianoushmahboob.ir/
+Description: ##
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: #
+
+*/
+body{
+	background-color: #b0b0b01a;
+}
+/*font install */
+@font-face {
+    font-family: 'Muctar';
+    src: url('font/fonts/Muctar.eot');
+    src: url('font/fonts/Muctar.eot') format('embedded-opentype'),
+         url('font/fonts/Muctar.woff2') format('woff2'),
+         url('font/fonts/Muctar.woff') format('woff'),
+         url('font/fonts/Muctar.ttf') format('truetype'),
+         url('font/fonts/Muctar.svg#Muctar') format('svg');
+}
+.mas { 
+	font-family: "Muctar";
+ }
+@font-face {
+    font-family: 'vazir';
+    src: url('font/Vazir.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('font/Vazir.eot') format('eot'),
+         url('font/Vazir.woff') format('woff'),
+         url('font/Vazir.ttf') format('truetype');
+
+}
+.vaz { 
+	font-family: "vazir";
+ }
+/*end font install */
+
+/*nav bar 1 */
+.bg-nav-top{
+	width: 100%;
+	background-color: #2bbd1ccc;
+}
+.text1-nav-top{
+	float: right;
+	text-align: right;	
+	padding: 7px;
+	color: white;
+	font-family: "vazir";
+}
+.information-nav-top{
+	font-size: 12px;
+	color: #383838;
+}
+.img-nav-top{
+	padding: 6px;
+
+}
+/*end nav bar 1 */
+
+/*nav bar 2 */
+nav.navbar.navbar-default{
+	margin-bottom: 0;
+}
+
+/*end nav bar 2 */
+
+/*categories */
+.cat-top{
+	float: right;
+	text-align: right;
+	margin: 0px;
+
+}
+.cat-top-left{
+	margin: 15px;
+	color: #383838;
+}
+.cat{
+	margin:15px 0px 0px 0px;
+}
+.bg-cat-top{
+	background-color: #e4e4e4;
+	width: 100%;
+	height: 60px;
+}
+/*end categories */ 
+
+/*blog*/
+.container-margin	{
+	margin-top: 25px;
+
+}
+.post{
+		float: right;
+		border: solid 1px;
+		border-color: #0000004d;
+		padding: 0px;
+		margin :15px;
+		text-decoration: none;
+}
+.txd{
+	text-decoration: none;
+	color: #323232;
+}
+.txd:hover{
+	text-decoration: none;
+	color: #323232;
+
+
+}
+.post:hover{
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-blog{
+	width: 100%;
+
+}
+.h-blog{
+	text-align: right;
+	margin: 10px 10px;
+	font-size: 24px
+
+}
+.p-blog{
+	text-align: justify;
+	direction: rtl;
+	padding: 10px 20px;
+	color: #323232;
+}
+.btn-post{
+	margin:0px 0px 20px 10px;
+}
+.pageselector{
+	float: right;
+	margin: 8px;
+	text-align: center;
+	background-color:  #2bbd1ccc;
+}
+.pageselector:hover{
+	background-color: #2d9323cc;
+}
+/*end blog */
+
+/*sidebar */ 
+.title-social-sidebar { 
+font-size: 14px;
+text-align: right;
+width: 100%;
+ }
+ .sidebar-social { 
+	margin:3px;
+}
+.bestpost-img{
+width: 50%;
+float: right;
+}
+.mag-0{
+	padding:0px !important;
+	margin-top: 10px;
+}
+.best-title{
+	font-size: 12px;
+	text-align: right;
+	direction: rtl;
+
+}
+.sidebar-cat{
+	font-size: 12px;
+	text-align: right;
+	border: solid 1px;
+	color: #00000080;
+	border-color: #adadad4d;	
+	margin: 1px 0px 0px 0px;
+	padding: 5px;
+}
+.div-sidebar-cat{
+ padding:0px;
+}
+/*end sidebar */ 
+
+/*footer*/
+.footer{
+	background-color: #17182de6 ; 
+}
+.footer-img{
+	width: 35%;
+	margin:0px 15px;  
+	padding: 30px 0px;
+	float: right;
+}
+.title-footer{
+font-size: 16px;
+text-align: right;
+width: 100%;
+color: white;
+margin-top: 25px;
+}
+.a-footer{
+	color: white; 
+	text-decoration: none;
+	direction: rtl;
+	text-align: right;
+
+}
+.a-footer:hover{
+	color: #bfbfbf; 
+	text-decoration: none;
+	direction: rtl;
+	text-align: right;	
+}
+.copyright{
+	width: 100%;
+	background-color: #1a1a1a;
+}
+.p-copyright{
+	color: white;
+	text-align: center;
+	font-size: 16px ;
+	padding: 10px;
+}
+/*end footer*/
